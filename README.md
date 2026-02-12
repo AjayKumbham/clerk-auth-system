@@ -37,23 +37,32 @@ The system is built on a modern frontend stack:
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
 - **Linter**: [ESLint](https://eslint.org/)
 
-## Visual Documentation
+## Visual Showcase
 
-### Authentication Interface
+![Sign In](./docs/screenshots/sign-in-modal.png)
+*Figure 1: Standardized Sign In interface.*
 
-| Sign In | Sign Up |
-| :---: | :---: |
-| ![Sign In](./docs/screenshots/sign-in-modal.png) | ![Sign Up](./docs/screenshots/sign-up-modal-filled.png) |
+![Sign Up Empty](./docs/screenshots/sign-up-modal-empty.png)
+*Figure 2: Initial Sign Up state.*
 
-| Password Recovery | Email Verification |
-| :---: | :---: |
-| ![Forgot Password](./docs/screenshots/forgot-password-modal.png) | ![Verification](./docs/screenshots/email-verification-code-modal.png) |
+![Sign Up Filled](./docs/screenshots/sign-up-modal-filled.png)
+*Figure 3: Registration flow with user input.*
 
-### User Experience
+![Forgot Password](./docs/screenshots/forgot-password-modal.png)
+*Figure 4: Secure password recovery workflow.*
 
-| Signed-In Dashboard | Account Settings |
-| :---: | :---: |
-| ![Dashboard](./docs/screenshots/signed-in-home-user-menu.png) | ![Profile](./docs/screenshots/account-profile-settings.png) |
+![Verification](./docs/screenshots/email-verification-code-modal.png)
+*Figure 5: Email verification checkpoint.*
+
+![Dashboard](./docs/screenshots/signed-in-home-user-menu.png)
+*Figure 6: Authenticated dashboard and user menu.*
+
+![Profile](./docs/screenshots/account-profile-settings.png)
+*Figure 7: User profile management.*
+
+![Security](./docs/screenshots/account-security-settings.png)
+*Figure 8: Account security and session settings.*
+
 
 ## Quick Start
 
