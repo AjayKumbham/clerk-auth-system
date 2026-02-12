@@ -39,41 +39,29 @@ The system is built on a modern frontend stack:
 
 ## Visual Showcase
 
-### Authentication Flow
-Experience a seamless and secure entry point with our pre-built, production-ready authentication components.
-
-#### Sign In & Registration
-Standardized modals for user identification and new account creation.
-
 ![Sign In](./docs/screenshots/sign-in-modal.png)
-*Figure 1: Enterprise-grade Sign In interface with support for social and email providers.*
+*Figure 1: Standardized Sign In interface.*
 
-![Sign Up](./docs/screenshots/sign-up-modal-filled.png)
-*Figure 2: Comprehensive registration flow with built-in validation.*
+![Sign Up Empty](./docs/screenshots/sign-up-modal-empty.png)
+*Figure 2: Initial Sign Up state.*
 
-#### Security & Recovery
-Robust handling of edge cases and security checkpoints.
+![Sign Up Filled](./docs/screenshots/sign-up-modal-filled.png)
+*Figure 3: Registration flow with user input.*
 
 ![Forgot Password](./docs/screenshots/forgot-password-modal.png)
-*Figure 3: Secure password recovery workflow.*
+*Figure 4: Secure password recovery workflow.*
 
 ![Verification](./docs/screenshots/email-verification-code-modal.png)
-*Figure 4: Real-time email verification for enhanced account security.*
-
-### User Experience
-Deeply integrated account management features that feel native to your application.
-
-#### Dashboard & Management
-Integrated user state management right from the dashboard.
+*Figure 5: Email verification checkpoint.*
 
 ![Dashboard](./docs/screenshots/signed-in-home-user-menu.png)
-*Figure 5: Post-authentication dashboard featuring the integrated Clerk User Button.*
-
-#### Profile Settings
-Comprehensive interface for users to manage their personal information.
+*Figure 6: Authenticated dashboard and user menu.*
 
 ![Profile](./docs/screenshots/account-profile-settings.png)
-*Figure 6: Advanced profile management including multi-factor authentication setup.*
+*Figure 7: User profile management.*
+
+![Security](./docs/screenshots/account-security-settings.png)
+*Figure 8: Account security and session settings.*
 
 
 ## Quick Start
