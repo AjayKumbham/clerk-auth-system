@@ -1,0 +1,2 @@
+# Mark CSS files as vendored to prevent them from dominating the language statistics
+*.css linguist-vendored
