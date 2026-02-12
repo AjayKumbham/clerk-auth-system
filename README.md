@@ -37,23 +37,44 @@ The system is built on a modern frontend stack:
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
 - **Linter**: [ESLint](https://eslint.org/)
 
-## Visual Documentation
+## Visual Showcase
 
-### Authentication Interface
+### Authentication Flow
+Experience a seamless and secure entry point with our pre-built, production-ready authentication components.
 
-| Sign In | Sign Up |
-| :---: | :---: |
-| ![Sign In](./docs/screenshots/sign-in-modal.png) | ![Sign Up](./docs/screenshots/sign-up-modal-filled.png) |
+#### Sign In & Registration
+Standardized modals for user identification and new account creation.
 
-| Password Recovery | Email Verification |
-| :---: | :---: |
-| ![Forgot Password](./docs/screenshots/forgot-password-modal.png) | ![Verification](./docs/screenshots/email-verification-code-modal.png) |
+![Sign In](./docs/screenshots/sign-in-modal.png)
+*Figure 1: Enterprise-grade Sign In interface with support for social and email providers.*
+
+![Sign Up](./docs/screenshots/sign-up-modal-filled.png)
+*Figure 2: Comprehensive registration flow with built-in validation.*
+
+#### Security & Recovery
+Robust handling of edge cases and security checkpoints.
+
+![Forgot Password](./docs/screenshots/forgot-password-modal.png)
+*Figure 3: Secure password recovery workflow.*
+
+![Verification](./docs/screenshots/email-verification-code-modal.png)
+*Figure 4: Real-time email verification for enhanced account security.*
 
 ### User Experience
+Deeply integrated account management features that feel native to your application.
 
-| Signed-In Dashboard | Account Settings |
-| :---: | :---: |
-| ![Dashboard](./docs/screenshots/signed-in-home-user-menu.png) | ![Profile](./docs/screenshots/account-profile-settings.png) |
+#### Dashboard & Management
+Integrated user state management right from the dashboard.
+
+![Dashboard](./docs/screenshots/signed-in-home-user-menu.png)
+*Figure 5: Post-authentication dashboard featuring the integrated Clerk User Button.*
+
+#### Profile Settings
+Comprehensive interface for users to manage their personal information.
+
+![Profile](./docs/screenshots/account-profile-settings.png)
+*Figure 6: Advanced profile management including multi-factor authentication setup.*
+
 
 ## Quick Start
 
