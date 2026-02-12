@@ -8,10 +8,13 @@
 [![Clerk](https://img.shields.io/badge/Auth-Clerk-6C47FF?style=flat-square&logo=clerk)](https://clerk.com/)
 [![Vite](https://img.shields.io/badge/Build-Vite-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/clerk-auth-system/graphs/commit-activity)
+[![Website](https://img.shields.io/badge/Live-Demo-EE4C2C?style=flat-square&logo=vercel)](https://secure-auth-service.vercel.app/)
 
 </div>
 
 A production-ready authentication foundation built with React, Vite, and Clerk. This repository provides a robust, pre-configured starting point for applications requiring secure, scalable, and delightful user authentication experiences.
+
+**🔗 Live Demo:** [https://secure-auth-service.vercel.app/](https://secure-auth-service.vercel.app/)
 
 
 ## Overview
