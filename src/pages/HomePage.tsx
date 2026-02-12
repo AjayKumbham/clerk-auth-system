@@ -1,4 +1,5 @@
 import { SignedIn, SignedOut, SignInButton } from "@clerk/clerk-react";
+import { Link } from "react-router-dom";
 
 export default function HomePage() {
     return (
@@ -22,7 +23,7 @@ export default function HomePage() {
 
             <SignedIn>
                 <div className="hero-actions">
-                    <button className="hero-btn-secondary" onClick={() => window.location.href = '/dashboard'}>Go to Dashboard</button>
+                    <Link to="/dashboard" className="hero-btn-secondary">Go to Dashboard</Link>
                 </div>
                 <span className="hero-badge">
                     <span className="hero-badge-dot" aria-hidden />
