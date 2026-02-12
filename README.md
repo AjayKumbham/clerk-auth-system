@@ -31,20 +31,29 @@ This project implements a complete authentication lifecycle, from registration a
 
 The system is built on a modern frontend stack:
 
-- **Framework**: [React](https://reactjs.org/) (v19)
+- **Framework**: [React](https://reactjs.org/)
 - **Build Tool**: [Vite](https://vitejs.dev/)
 - **Authentication**: [Clerk](https://clerk.com/)
-- **Routing**: [React Router](https://reactrouter.com/)
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
 - **Linter**: [ESLint](https://eslint.org/)
 
-## Visual Showcase
+## Visual Documentation
 
-![Sign In](./docs/screenshots/sign-in-modal.png)
-*Figure 1: Standardized Sign In interface.*
+### Authentication Interface
 
-![Dashboard](./docs/screenshots/signed-in-home-user-menu.png)
-*Figure 2: Authenticated dashboard with Protected Routing.*
+| Sign In | Sign Up |
+| :---: | :---: |
+| ![Sign In](./docs/screenshots/sign-in-modal.png) | ![Sign Up](./docs/screenshots/sign-up-modal-filled.png) |
+
+| Password Recovery | Email Verification |
+| :---: | :---: |
+| ![Forgot Password](./docs/screenshots/forgot-password-modal.png) | ![Verification](./docs/screenshots/email-verification-code-modal.png) |
+
+### User Experience
+
+| Signed-In Dashboard | Account Settings |
+| :---: | :---: |
+| ![Dashboard](./docs/screenshots/signed-in-home-user-menu.png) | ![Profile](./docs/screenshots/account-profile-settings.png) |
 
 ## Quick Start
 
@@ -68,18 +77,15 @@ For comprehensive instructions, please refer to the [Setup Guide](./docs/SETUP.m
 
 ## Project Structure
 
-This project follows a modular architecture designed for horizontal scaling:
-
 ```text
-├── src/
-│   ├── components/     # Reusable UI components
-│   ├── layouts/        # Page shells (Nav, Footer, Sidebar)
-│   ├── pages/          # Route-specific views (Home, Dashboard)
-│   ├── App.tsx         # Routing logic & Global Providers
-│   ├── main.tsx        # Entry point
-│   └── index.css       # Global design tokens
-├── docs/               # Technical documentation
-└── vite.config.ts      # Optimized build config
+├── docs/               # Documentation and assets
+│   ├── screenshots/    # UI reference images
+│   └── SETUP.md        # Detailed setup guide
+├── src/                # Application source code
+│   ├── assets/         # Static assets
+│   ├── main.tsx        # Application entry point & ClerkProvider
+│   └── App.tsx         # Root component & auth routing
+└── vite.config.ts      # Build configuration
 ```
 
 ## Security and Compliance
